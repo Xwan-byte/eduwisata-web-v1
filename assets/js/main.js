@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const logoImg = document.getElementById('logo-img');
         if (!header || !logoImg) return;
 
-        const logoPutih = '/assets/images/logo/Logo-putih kolahbanyu.png';
-        const logoHijau = '/assets/images/logo/logo warna kolah banyu.png';
+        const logoPutih = 'assets/images/logo/Logo-putih kolahbanyu.png';
+        const logoHijau = 'assets/images/logo/logo warna kolah banyu.png';
 
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
