@@ -233,11 +233,11 @@ img {
 }
 
 /* Background Images */
-.hero { background-image: url('assets/images/ilustrasi/bg-tugu-kolahbanyu-ai.png'); } /* home.html */
-.hero-profile { background-image: url('assets/images/gallery/IMG_2950-scaled.jpg'); } /* profil.html */
-.hero-berita { background-image: url('assets/images/gallery/IMG_3107.png'); } /* berita.html */
-.hero-agenda { background-image: url('assets/images/gallery/IMG_3107.png'); } /* agenda.html */
-.hero-layanan { background-image: url('assets/images/gallery/IMG_3107.png'); } /* layanan.html */
+.hero { background-image: url('/assets/images/ilustrasi/bg-tugu-kolahbanyu-ai.png'); } /* home.html */
+.hero-profile { background-image: url('/assets/images/gallery/IMG_2950-scaled.jpg'); } /* profil.html */
+.hero-berita { background-image: url('/assets/images/gallery/IMG_3107.png'); } /* berita.html */
+.hero-agenda { background-image: url('/assets/images/gallery/IMG_3107.png'); } /* agenda.html */
+.hero-layanan { background-image: url('/assets/images/gallery/IMG_3107.png'); } /* layanan.html */
 
 
 .hero::before, .hero-profile::before, .hero-berita::before, .hero-agenda::before, .hero-layanan::before {

@@ -158,8 +158,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // =================================================================
     
     // Muat komponen utama
-    loadComponent('/template/header.html', 'header-placeholder');
-    loadComponent('/template/footer.html', 'footer-placeholder');
+    loadComponent('header.html', 'header-placeholder');
+    loadComponent('footer.html', 'footer-placeholder');
 
     // Aktifkan fungsi-fungsi yang berjalan di semua halaman
     const animatedElements = document.querySelectorAll('.fade-in');
